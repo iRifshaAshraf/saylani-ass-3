@@ -1,0 +1,671 @@
+body{
+    padding: 0%;
+    margin: 0%;
+}
+header{
+    /* padding: 0px !important; */
+    background-color: #316DC3;
+}
+
+header .social-icons{
+    margin: 0px !important;
+    /* padding-right: 1rem; */
+    font-size: 13px;
+}
+header .social-icons a{
+    color: #ffffff;
+    padding: 0 !important;
+    height: 20px !important;
+    width: 22px !important;
+    line-height: 18px !important;
+}
+header .social-icons a:hover{
+    text-decoration: none;
+    /* text-decoration: rgb(77, 8ss5, 240); */
+    background-color: rgb(52, 61, 235);
+}
+header .text{
+    font-size: 15px !important;
+    /* line-height: -5px; */
+}
+.btn{
+    border-radius: 0%;
+    border: 1px solid #008000;
+    height: 28px;
+    max-width: 90px;
+    line-height: 5px;
+    font-size: 10px;
+    color: #008000;
+    margin-bottom: 0 !important;
+}
+
+header nav{
+    background-color: #ffffff;
+    margin: 0 !important;
+}
+.navbar-brand{
+    margin-left: 5px;
+}
+.navbar-brand img{
+    max-height: 52px;
+    margin-left: 80px;
+}
+nav, nav a{
+    /* border: 1px solid black; */
+    padding-right: 12.5px !important;
+    padding-left: 12.5px !important;
+}
+nav li > a{
+    color: #000000 !important;
+    /* padding: 8px 16px; */
+    font-size: 13px;
+    font-weight: 600;
+    /* border-radius: 30px; */
+    
+}
+nav li:hover, nav li:hover > a{
+    background-color: #316DC3;
+    color: #ffffff !important;
+    text-decoration: none;
+}
+nav .dropdown-menu{
+    border: 0px solid #ffffff;
+    
+}
+nav .dropdown-menu li{
+    width: 200px;
+    max-width: 400px;
+    min-width: 180px;
+    height: 30px;
+}
+nav .dropdown li:hover{
+    border-radius: 0%;
+    padding-left: 10px;
+    /* width: 100%;
+    max-width: 400px;
+    min-width: 180px;
+    height: 30px; */
+}
+
+.carousel-item img{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90%;
+}
+
+.section-1 .container{
+    background-color: #316DC3;
+    font-size: 15px;
+    color: #ffffff;
+}
+.section-1 .container marquee{
+    width: 100%;
+    padding: 0px;
+    height: 20px;
+}
+.section-1 .container span{
+    color: #00FF00;
+}
+.section-1 .container a{
+    color: #0000F0;
+    text-decoration: none;
+}
+.section-1 .slide-2 img{
+    /* background-size: cover; */
+    background-position: center;
+}
+
+.heading h2{
+    text-transform: uppercase;
+    color: #316DC3;
+    font-family: 'Merriweather', 'serif';
+    font-weight: 600;
+}
+.heading h2 span{
+    color: #427900;
+}
+
+
+.section-2 #favicon, .section-3 #favicon, .section-5 #favicon{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    position: relative;  
+}
+#favicon:after{
+    content: '';
+    width: 12%;
+    border-bottom: solid 2px #427900;
+    position: absolute;
+    left: 44%;
+    right: 44%;
+    top: 55%;
+    z-index: 1;
+}
+.section-2 #favicon::after{
+    width: 12%;
+    left: 44%;
+    right: 44%;
+}
+.section-3 #favicon:after{ 
+    width: 14%;
+    left: 43%;
+    right: 43%;    
+}
+.section-5 #favicon:after {
+    width: 14%;
+    left: 43%;
+    right: 43%;
+}
+
+.section-2 #favicon img, .section-3 #favicon img, .section-5 #favicon img{
+    background-color:#ffffff; 
+    width: auto;
+    display: inline-block;
+    z-index: 3;
+    padding: 0 20px 0 20px;
+    color:green;
+    position: relative;
+    font-family: calibri;
+    font-weight: lighter;
+    margin: 0;
+}
+
+.section-2 .intro .site-content p{
+    margin: 0 0 10px;
+    /* color: #666666; */
+    font-size: 15px;
+    padding-bottom: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+}
+.section-2 .quantity .container{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(52, 61, 235);
+    color: #ffffff;
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.section-2 .quantity-info{
+    font-family: 'Merriweather', serif;
+    font-weight: 600;
+    
+}
+.section-2 .quantity-info i{
+    color: #ffffff;
+    font-size: 50px;
+}
+.section-2 .quantity-info h1{
+    font-size: 50px;
+}
+.section-2 .quantity-info h4{
+    font-size: 13px;
+    text-transform: uppercase;
+}
+.section-2 .quantity .container span{
+    color: #00FF00;
+}
+
+section .section-3{
+    background-color: #f7f8fa !important;
+}
+section .section-3 .container{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.section-3 .container .row .col-xs-12 img, 
+.section-3 .container .row .col-sm-6 img, 
+.section-3 .container .row .col-md-4 img, 
+.section-3 .container .row .col-lg-4 img{
+    height: 70px;
+    
+}
+.section-3 .container .row h4{
+    /* margin-top: 10px; */
+    padding-top: 20px;
+    color: #316DC3;
+    text-transform: uppercase;
+    font-family: 'Merriweather', serif;
+    font-weight: 600;
+    font-size: 18px;
+}
+.section-3 .container .row .col-xs-12 div, 
+.section-3 .container .row .col-sm-6 div, 
+.section-3 .container .row .col-md-6 div, 
+.section-3 .container .row .col-lg-4 div{
+    padding: 30px;
+    box-sizing: border-box;
+    box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.16);
+    margin-bottom: 30px;
+    background-color: #ffffff;
+}
+
+section .section-4{   
+    background-color: #ffffff;
+}
+.section-4 .container{
+    padding-top: 60px;
+}
+.section-4 .container .col-md-12 h3{
+    /* text-transform: uppercase; */
+    color: #316DC3;
+    font-family: 'Merriweather', 'serif';
+    font-weight: 600;
+    font-size: 24px;
+    padding-bottom: 20px;
+}
+
+.section-4 .container .col-md-12 .row .col-xs-12 div, 
+.section-4 .container .col-md-12 .row .col-sm-6 div, 
+.section-4 .container .col-md-12 .row .col-md-6 div{
+    border: 1px solid #eeeeee !important;
+    margin-bottom: 20px !important;
+    padding: 15px !important;
+    text-align: left;
+    background-color: #f7f8fa;
+}
+.section-4 .container .col-md-12 .row .col-xs-12 div div, 
+.section-4 .container .col-md-12 .row .col-sm-6 div div, 
+.section-4 .container .col-md-12 .row .col-md-6 div div{
+    border: 0 !important;
+    margin-bottom: 0 !important;
+    padding: 0 !important;
+    /* text-align: left;
+    background-color: #f7f8fa; */
+}
+.section-4 .container .col-md-12 .row .col-xs-12 div h5, 
+.section-4 .container .col-md-12 .row .col-sm-6 div h5, 
+.section-4 .container .col-md-12 .row .col-md-6 div h5{
+    text-transform: uppercase;
+    color: #316DC3;
+    font-family: 'Merriweather', serif;
+    font-weight: 600;
+    line-height: 45px;
+    font-size: 15px;
+}
+.section-4 .container h3{
+    color: #316DC3;
+    font-family: 'Merriweather', serif;
+    font-weight: 600;
+    font-size: 24px;
+    padding-bottom: 20px;
+}
+/* .section-4 .container .h-mission{
+    border-bottom: 1px solid #444444;
+} */
+.section-4 h3 span{
+    border-bottom: 2px solid #427900;
+}
+.section-4 .container marquee{
+    width: 80%;
+    height: 200px;
+    /* font-weight: 300; */
+    font-size: 14px;
+}
+
+.section-5 .container{
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+.section-5 .flex-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 20px;
+  }
+.section-5 .gallery .flex-container img {
+    height: 140px;
+    padding: 1px;
+}
+.section-5 .gallery img:hover{
+    opacity: 0.2;
+}
+
+footer{
+    /* background-color: #333333; */
+    /* background-color: #222831; */
+    /* background-color: #121212; */
+    background-color: #232931;
+    color: #bbbbbb;
+}
+footer .container{
+    padding-top: 70px;
+    padding-bottom: 40px;
+    font-size: 14px;
+}
+footer .container .contact i{
+    font-size: 14px !important;
+    color: #427900 !important;
+}
+footer .container .contact li{
+    list-style-type: none;
+}
+footer h5{
+    font-family: 'Merriweather', serif;
+    color: #ffffff;
+    font-size: 15px;
+    
+}
+
+.demopadding {
+    padding-top: 5px;
+    /* width:140px; */
+    text-align: center;
+}
+.icon {
+    position: relative;
+    text-align: center;
+    width: 0px;
+    height: 0px;
+    padding: 15px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px; 
+    color: #FFFFFF;
+}
+.icon i {
+    font-size: 15px;
+    position: absolute;
+    top: 10px;
+}
+.icon.social {
+    float: left;
+    margin: 0 5px 0 0;
+    cursor: pointer;
+    background: #316DC3 ;
+    color: #ffffff;
+    text-align: center;
+    transition: 0.5s;
+    -moz-transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s; 	
+}
+.icon.social:hover {
+    background: #ffffff ;
+    color:#316DC3;
+    transition: 0.5s;
+    -moz-transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+.icon.social.fb i{
+    left: 10px;
+	top: 7px;
+  }
+.icon.social.tw i, .icon.social.ins i, .icon.social.yt i{
+    left:9px;
+	top:7px;
+}
+footer h5{
+    border-bottom: 1px solid #444444;
+}
+footer h5 span{
+    border-bottom: 2px solid #427900;
+}
+footer .h-h5{
+    border-bottom: 0px solid #444444 !important;
+}
+footer .footer-bottom{
+    background-color: #316DC3;
+    color: #ffffff;
+    font-size: 12px;
+    padding-top: 10px;
+    text-align: justify;
+    
+}
+footer .footer-bottom .row{
+    margin: 0px;
+}
+
+footer .container-fluid .container{
+    height: 20px;
+}
+
+@media only screen and (min-width : 1200px) {
+    nav li:hover, nav li:hover > a{
+        border-radius: 30px;
+    }
+    .section-2 .intro .site-content p{
+        margin-left: 5rem;
+        margin-right: 5rem;
+        /* color: #666666; */
+    }
+    .section-5 .gallery .flex-container img {
+        height: 140px !important;
+        padding: 1px;
+    }
+    .section-2 #favicon::after{
+        width: 12%;
+        left: 44%;
+        right: 44%;
+    }
+
+}
+@media only screen and (min-width : 992px) {
+    nav li:hover, nav li:hover > a{
+        border-radius: 30px;
+    }
+    header .btn{
+        margin-bottom: 0px !important;
+    }
+    .section-4 marquee{
+        width: 200px !important;
+    }
+
+    .section-2 #favicon::after{
+        width: 12% !important;
+        left: 44% !important;
+        right: 44% !important;
+    }
+    .section-3 #favicon:after{ 
+        width: 14% !important;
+        left: 43% !important;
+        right: 43% !important;    
+    }
+    .section-5 #favicon:after {
+        width: 14% !important;
+        left: 43% !important;
+        right: 43% !important;
+    }
+    .section-5 .gallery .flex-container img {
+        height: 122px;
+        padding: 1px;
+    }
+    .section-2 .intro .site-content p{
+        margin-left: 5rem;
+        margin-right: 5rem;
+        color: #666666;
+    }
+    .section-5 .container .gallery{
+        height: 300px;
+    }
+    
+}
+@media only screen and (min-width : 768px) {
+    header{
+        background-color: #316DC3;
+    }
+    header .text{
+        padding-bottom: 10px;
+    }
+    /* header .btn{
+        margin-bottom: 10px !important;
+    } */
+    
+    header .social-icons a{
+        color: #ffffff;
+        height: 21px;
+        width: 22px;
+        line-height: 18px;
+    }
+    header .social-icons a:hover{
+        text-decoration: none;
+        /* text-decoration: rgb(77, 8ss5, 240); */
+        background-color: rgb(52, 61, 235);
+    }
+    header .text{
+        font-size: 15px;
+        /* line-height: -5px; */
+    } 
+    .navbar-brand img{
+        margin-left: 0% !important;
+    }
+    .heading h2{
+        font-size: 28px;
+    }
+    .section-2 #favicon img, .section-3 #favicon img, .section-5 #favicon img{
+        background-color:#ffffff; 
+        width: auto;
+        display: inline-block;
+        z-index: 3;
+        padding: 0 15px 0 15px;
+        color:green;
+        position: relative;
+        font-family: calibri;
+        font-weight: lighter;
+        margin: 0;
+        height: 40px;
+        width: 70px;
+    }
+
+    .section-2 #favicon::after{
+        width: 18%;
+        left: 41%;
+        right: 41%;
+    }
+    .section-3 #favicon:after{ 
+        width: 18%;
+        left: 41%;
+        right: 41%;    
+    }
+    .section-5 #favicon:after {
+        width: 18%;
+        left: 41%;
+        right: 41%;
+    }
+    .section-4 .container marquee{
+        width: 35%;
+        height: 200px;
+        /* font-weight: 300; */
+        font-size: 14px;
+    }
+}
+@media only screen and (min-width : 480px) {
+    header .text{
+        padding-bottom: 10px;
+    }
+    
+    .navbar-brand img{
+        margin-left: 0% !important;
+    }
+    .section-2 .heading h2{
+        font-size: 27px !important;
+    }
+    
+    .section-2 #favicon img, .section-3 #favicon img, .section-5 #favicon img{
+        background-color:#ffffff; 
+        width: auto;
+        display: inline-block;
+        z-index: 3;
+        padding: 0 10px 0 10px;
+        color:green;
+        position: relative;
+        font-family: calibri;
+        font-weight: lighter;
+        margin: 0;
+    }
+    .section-2 #favicon::after{
+        width: 30%;
+        left: 35%;
+        right: 35%;
+    }
+    .section-3 #favicon:after{ 
+        width: 80%;
+        left: 35%;
+        right: 35%;    
+    }
+    .section-5 #favicon:after {
+        width: 30%;
+        left: 35%;
+        right: 35%;
+    }
+     
+    
+}
+@media only screen and (min-width : 320px) {
+    .heading h2{
+        margin-top: 7s0px;
+        font-size: 27px;
+    }
+    .section-4 h3{
+        margin-top: 1rem;
+    }
+    .section-4 marquee{
+        width: 240px !important;
+    }
+    .section-2 #favicon::after{
+        width: 30%;
+        left: 35%;
+        right: 35%;
+    }
+    .section-3 #favicon:after{ 
+        width: 30%;
+        left: 35%;
+        right: 35%;    
+    }
+    .section-5 #favicon:after {
+        width: 30%;
+        left: 35%;
+        right: 35%;
+    }
+    
+    .section-5 .gallery .flex-container img {
+        height: 148px;
+        padding: 1px;
+    }
+    footer .h-h5{
+        /* padding-top: 10px; */
+    }
+
+}
+@media only screen and (max-width : 360px) {
+    header .btn{
+        /* margin-bottom: 10px !important; */
+    }
+    .section-5 .container .gallery{
+        height: 500px;
+    }
+    footer .contact li{
+        float: left;
+        display: flex;
+    }
+    footer h5{
+        padding-top: 10px;
+    }
+    
+    
+    /* .section-2 .quantity-info{
+        font-family: 'Merriweather', serif;
+        font-weight: 600;
+        
+    }
+    .section-2 .quantity-info i{
+        color: #ffffff;
+        font-size: 50px;
+    }
+    .section-2 .quantity-info h1{
+        font-size: 50px;
+    }
+    .section-2 .quantity-info h4{
+        font-size: 13px;
+        text-transform: uppercase;
+    }
+    .section-2 .quantity .container span{
+        color: #00FF00;
+    } */
+}
